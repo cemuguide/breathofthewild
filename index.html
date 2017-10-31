@@ -1,0 +1,132 @@
+<html>
+
+<head>
+<title>The Legend of Zelda: Breath of the Wild</title>
+<style type="text/css">a {text-decoration: none}</style>
+</head>
+
+<body bgcolor="#fafafa" link="#cc3300" vlink="#cc3300" alink="#333333">
+<div style="margin-left:50px ; margin-top:50px ; margin-bottom:50px ; margin-right:50px">
+<font face="sans-serif" size="2" color="black">
+<span style="line-height:18px">
+
+<b>Télécharger The Legend of Zelda: Breath of the Wild</b>
+<br>
+<i>Note : Wii U USB Helper est un programme qui permet de télécharger jeux, mises à jour et DLC librement sur les serveurs du Nintendo eShop, depuis Windows ou Android.</i>
+<ul><li>Téléchargez Wii U USB Helper (<a href="https://www.wiiuusbhelper.com">https://www.wiiuusbhelper.com</a>).</li>
+<li>À l'installation, choisissez la région EUR.</li>
+<li>Entrez <a href="http://wiiu.titlekeys.gq">http://wiiu.titlekeys.gq</a> dans le champ Wii U lorsque la fenêtre Ticket apparaît (<a href="https://i.imgur.com/d6uhoYK.png">image</a>).</li>
+<li>Wii U USB Helper est maintenant prêt à l'emploi. Tapez Breath of the Wild dans son champ de recherche.</li>
+<li>Faites un clic droit sur l'icône du jeu et sélectionnez Download game(s).</li>
+<li>Acceptez de télécharger la dernière mise à jour du jeu et ses DLC lorsque ce choix vous est offert.</li>
+<li>Cliquez sur Start downloading (<a href="https://i.imgur.com/W1SStUP.png">image</a>).</li>
+<li>Les trois téléchargements terminés, faites un clic droit sur l'icône du jeu et sélectionnez Unpack (Loadiine).</li>
+<li>Cochez Game, Update et DLC et continuez.</li>
+<li>Le décryptage fini, fermez Wii U USB Helper et jetez les fichiers téléchargés pour ne conserver que les trois dossiers décompressés (<a href="https://i.imgur.com/MnyqKky.png">image</a>).</li></ul>
+
+<br><br>
+
+<b>Mettre en place l'émulateur Wii U</b>
+<ul><li>Téléchargez Cemu (<a href="http://cemu.info">http://cemu.info</a>) et mettez-le où vous le souhaitez.</li>
+<li>Placez le dossier de Breath of the Wild à la racine de Cemu.</li>
+<li>Placez les trois sous-dossiers de la mise à jour de Breath of the Wild (code, content et meta) dans \mlc01\usr\title\00050000\101C9500\</li>
+<li>Placez les trois sous-dossiers du DLC de Breath of the Wild (code, content et meta) dans \mlc01\usr\title\00050000\101C9500\aoc\</li>
+<li>Téléchargez un shaderCache, de préférence complet (<a href="https://drive.google.com/open?id=0B3e6tzq0AL95cHJvcm1GNnF6Zzg">https://drive.google.com/open?id=0B3e6tzq0AL95cHJvcm1GNnF6Zzg</a>), et placez-le dans \shaderCache\transferable\</li>
+<li>Ouvrez le fichier 00050000101c9500.ini qui se situe dans \gameProfiles\ et remplacez son contenu par ce qui suit :</li>
+<blockquote><i># The Legend of Zelda: Breath of the Wild
+<br><br>
+[CPU]
+<br>
+cpuTimer = hostBased
+<br>
+emulateSinglePrecision = true
+<br><br>
+[Graphics]
+<br>
+GPUBufferCacheAccuracy = 2
+<br>
+accurateShaderMul = min
+<br>
+disableGPUFence = true</i></blockquote>
+<li>Téléchargez Cemu hook (<a href="https://sshnuke.net/cemuhook">https://sshnuke.net/cemuhook</a>) et placez son contenu à la racine de Cemu.</li>
+<i>Note : Cemu hook est un plugin dont le principal intérêt est de permettre à Cemu de lire les cinématiques vidéo.</i>
+<li>Téléchargez les derniers graphicPacks (en cliquant sur Latest en haut à droite, <a href="https://slashiee.github.io/cemu_graphic_packs">https://slashiee.github.io/cemu_graphic_packs</a>) et placez-les dans \graphicPacks\</li>
+<li>Lancez Cemu.exe</li>
+<li>Dans Options > Graphic packs, cochez les graphicPacks de votre choix. Sont fortement recommandés : 3840x2160, No Anti-Aliasing, High Resolution Shadows, FPS++ et LWZX Crash Workaround (<a href="https://i.imgur.com/5QEvJki.png">image</a>).</li>
+<li>Dans Options > Input settings, sélectionnez Wii U Pro Controller à la ligne Emulate Controller et configurez les raccourcis comme vous le souhaitez (<a href="https://i.imgur.com/sqvF78g.png">image</a>).</li>
+<li>Dans Options > Console language, sélectionnez French.</li></ul>
+
+<br><br>
+
+<b>Lancer The Legend of Zelda: Breath of the Wild</b>
+<br>
+<i>Notes : Le premier lancement est excessivement long car les 8500+ shaders du jeu doivent être compilés, mais les lancements suivants sont, eux, quasi instantanés. 
+<br>
+Toute mise à jour de Cemu ou des pilotes de la carte graphique entraîne une recompilation complète des shaders.</i>
+<ul><li>Dans Cemu, cliquez sur File > Load et sélectionnez \The Legend of Zelda Breath of the Wild [ALZP0101]\code\U-King.rpx</li>
+<li>Sélectionnez Options > Fullscreen ou appuyez sur Alt+Entrée pour basculer en plein écran.</li></ul>
+
+<br><br>
+
+<b>Créer un raccourci Steam</b> (optionnel)
+<ul><li>Dans Steam, sélectionnez ADD A GAME... > Add a Non-Steam Game... et choisissez Cemu.exe.</li>
+<li>Modifiez l'affichage via View > Games Grid.</li>
+<li>Faites un clic droit sur le raccourci précédemment créé, sélectionnez Set Custom Image... et ajoutez <a href="https://i.imgur.com/3SHHiER.png">cette image</a> ou une autre de votre choix.</li>
+<li>Ouvrez les propriétés du raccourci, remplacez son nom par celui du jeu, importez <a href="https://i.imgur.com/h8meghI.png">une icône</a> et éditez le champ Target pour ajouter -g "chemin du jeu" -f.
+<blockquote><i>Exemple : D:\Cemu\Cemu.exe -g "D:\Cemu\The Legend of Zelda Breath of the Wild [ALZP0101]\code\U-King.rpx" -f</i></blockquote>
+Vous pourrez ainsi lancer le jeu directement en plein écran et entièrement à la manette grâce à l'interface Big Picture (<a href="https://i.imgur.com/wiBO04Q.jpg">image</a>).</li></ul>
+
+<br><br>
+
+<b>Créer un raccourci Windows</b> (optionnel)
+<ul><li>Faites un clic droit sur Cemu.exe et sélectionnez Create shortcut.
+<li>Renommez le raccourci en The Legend of Zelda Breath of the Wild.
+<li>Ouvrez les propriétés du raccourci et éditez le champ Target pour ajouter -g "chemin du jeu" -f.
+<blockquote><i>Exemple : D:\Cemu\Cemu.exe -g "D:\Cemu\The Legend of Zelda Breath of the Wild [ALZP0101]\code\U-King.rpx" -f</i></blockquote>
+<li>Remplacez l'icône par <a href="https://crussong.deviantart.com/art/Zelda-Breath-of-the-Wild-Icon-678254651">une autre au choix</a>.
+<br>
+Vous pourrez ainsi lancer le jeu directement en plein écran et en un clic.</li></ul>
+
+<br><br>
+
+<b>Scanner des amiibo</b>
+<br>
+<i>Note : Vous ne pouvez scanner qu'un amiibo par jour et le contenu offert par la majorité d'entre eux est aléatoire.</i>
+<ul><li>Téléchargez les amiibo de The Legend of Zelda (<a href="https://mega.nz/#!92BnzSwT!CKYLLhFz42yaRRtTGLGRfW_nEuGOugcFZZHFbJWge2w">https://mega.nz/#!92BnzSwT!CKYLLhFz42yaRRtTGLGRfW_nEuGOugcFZZHFbJWge2w</a>) et placez-les où vous le souhaitez (<a href="https://i.imgur.com/B8y6WFs.png">image</a>).</li>
+<li>Lancez Breath of the Wild.</li>
+<li>Dans le menu du jeu, choisissez Paramètres amiibo > Activer les amiibo.</li>
+<li>Chargez une sauvegarde.</li>
+<li>Sélectionnez le module amiibo de la tablette sheika (<a href="https://i.imgur.com/0PkvS5m.png">image</a>).</li>
+<li>Dans Cemu, sélectionnez NFC > Scan NFC tag from file et choisissez le fichier .bin d'un amiibo pour obtenir instantanément une récompense (<a href="https://i.imgur.com/3cYZacM.png">image</a>).</li></ul>
+
+<br><br>
+
+<b>Mettre à jour Cemu</b>
+<br>
+<i>Note : N'oubliez pas de mettre également à jour Cemu hook ainsi que vos graphicPacks à chaque nouvelle version de Cemu.</i>
+<ul><li>Supprimez le fichier settings.bin</li>
+<li>Supprimez tout le contenu de \shaderCache\precompiled\</li>
+<li>Remplacez l'ancien Cemu.exe par le nouveau.</li>
+<li>Reconfigurez Cemu comme précédemment (Graphic packs, Input settings et Console language).</li></ul>
+
+<br><br>
+
+<b>Autres liens utiles</b>
+<ul><li>Forum officiel de Cemu : <a href="https://forum.cemu.info">https://forum.cemu.info</a></li>
+<li>Cemu Wiki : <a href="http://compat.cemu.info/wiki">http://compat.cemu.info/wiki</a></li>
+<li>Cemu sur reddit : <a href="https://www.reddit.com/r/cemu">https://www.reddit.com/r/cemu</a></li>
+<li>CemuCaches sur reddit, où vous trouverez des shaderCaches pour de nombreux autres jeux Wii U : <a href="https://www.reddit.com/r/CEMUcaches">https://www.reddit.com/r/CEMUcaches</a></li>
+<li>Éditeur de sauvegarde en HTML5 : <a href="http://www.marcrobledo.com/savegame-editors">http://www.marcrobledo.com/savegame-editors</a></li></ul>
+
+<br><br>
+
+<a href="https://i.imgur.com/abBdLPA.png"><img src="https://i.imgur.com/abBdLPA.png" width="800"></a>
+<br><br>
+<a href="https://i.imgur.com/fh0xGNm.jpg"><img src="https://i.imgur.com/fh0xGNm.jpg" width="800"></a>
+
+</span>
+</font>
+</div>
+</body>
+
+</html>
