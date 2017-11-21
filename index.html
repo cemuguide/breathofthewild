@@ -151,15 +151,16 @@ Vous pourrez ainsi lancer le jeu directement en plein écran et entièrement à 
 <br><br>
   
 <big><b>Questions fréquemment posées</b></big>
-<ul><li>L'appareil photo ne reconnaît pas les sujets visés. Que faire ?
-Ouvrez le fichier patches.txt qui se situe dans \graphicPacks\BreathOfTheWild_FPS++\ et ajoutez un point-virgule devant les lignes suivantes :</li>
+<ul><li><b>Question</b> : L'appareil photo ne reconnaît pas les sujets visés. Que faire ?
+<br>
+<b>Réponse</b> : Ouvrez le fichier patches.txt qui se situe dans \graphicPacks\BreathOfTheWild_FPS++\ et ajoutez un point-virgule devant les lignes suivantes :</li>
 <blockquote><i>0x03102808 = nop ;disables gx2 fence
 <br><br>
 0x030D5200 = nop ;comment out this line with ';' at the beginning to disable gpufenceskip
 <br><br>
 0x030D42A0 = nop ;comment out this line with ';' at the beginning to disable gpufenceskip</i></blockquote>
-<li>Les vibrations ne fonctionnent pas.
-Si vous utilisez une manette sans fil, allumez-la avant de lancer Cemu.</li></ul>
+<li><b>Question</b> : Les vibrations ne fonctionnent pas.
+<b>Réponse</b> : Si vous utilisez une manette sans fil, allumez-la avant de lancer Cemu.</li></ul>
 
 <br><br>
 
