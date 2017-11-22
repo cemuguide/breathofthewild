@@ -36,7 +36,7 @@ padding-bottom: 5px;
 <br>
 21/11/2017 : Ajout d'un nouveau shaderCache incluant les shaders de la mise à jour v144 (Ver.1.3.3).
 <br>
-21/11/2017 : Ajout de réponses aux questions les plus fréquentes.</i>
+22/11/2017 : Ajout de réponses aux questions les plus fréquentes.</i>
 
 <br><br><br>
 
@@ -97,6 +97,7 @@ extendedTextureReadback = true</i></blockquote>
 <br><br>
 <b>ReflExtra</b> améliore les reflets sur certaines surfaces, notamment dans les sanctuaires.</i></blockquote>
 <li>Dans Options > Input settings, sélectionnez Wii U Pro Controller à la ligne Emulate Controller et configurez les raccourcis comme vous le souhaitez (<a href="https://i.imgur.com/sqvF78g.png">image</a>).</li>
+<li>Dans Options > Experimental, sélectionnez Full sync at GX2DrawDone().</li>
 <li>Dans Options > Console language, sélectionnez French.</li></ul>
 
 <br><br>
@@ -153,19 +154,7 @@ Vous pourrez ainsi lancer le jeu directement en plein écran et entièrement à 
 <br><br>
   
 <big><b>Questions fréquemment posées</b></big>
-<ul><li><i>L'appareil photo ne reconnaît pas les sujets visés. Que faire ?</i>
-<br>
-Ouvrez le fichier patches.txt qui se situe dans \graphicPacks\BreathOfTheWild_FPS++\ et ajoutez un point-virgule devant les lignes suivantes :</li>
-<blockquote><i>0x03102808 = nop ;disables gx2 fence
-<br><br>
-0x030D5200 = nop ;comment out this line with ';' at the beginning to disable gpufenceskip
-<br><br>
-0x030D42A0 = nop ;comment out this line with ';' at the beginning to disable gpufenceskip</i></blockquote>
-<li><i>Un gyroscope est nécessaire pour terminer 4 des 120 sanctuaires du jeu. Comment s'en passer ?</i>
-<br>
-Dans Options > Input settings, sélectionnez Wii U GamePad à la ligne Emulate Controller et configurez les raccourcis comme vous le souhaitez. Utilisez ensuite la souris pour simuler l'effet du gyroscope.</li>
-<br>
-<li><i>Les vibrations ne fonctionnent pas.</i>
+<ul><li><i>Les vibrations ne fonctionnent pas.</i>
 <br>
 Si vous utilisez une manette sans fil, allumez-la avant de lancer Cemu.</li>
 <br>
