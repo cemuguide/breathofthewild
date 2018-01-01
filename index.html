@@ -28,7 +28,7 @@ padding-bottom: 5px;
 
 <br><br><br>
 
-<i>13/12/2017 : Nouvelle mise à jour pour Breath of the Wild (Ver.1.4.0), nouveau DLC (L'Ode aux Prodiges), nouvelle version de Cemu (1.11.2), nouveau Cemu hook (5.5.4), nouveaux graphic packs et enfin nouveau shaderCache. Le guide est à jour !</i> 
+<i>01/01/2018 : Guide mis à jour à l'occasion de la sortie publique de Cemu 1.11.3.</i> 
 
 <br><br><br>
 
@@ -76,25 +76,27 @@ extendedTextureReadback = true</i></blockquote>
 <i><b>Note</b> : Cemu hook est un plugin dont le principal intérêt est de permettre à Cemu de lire les cinématiques vidéo.</i>
 <li>Téléchargez les derniers graphic packs (en cliquant sur Latest en haut à droite, <a href="https://slashiee.github.io/cemu_graphic_packs">https://slashiee.github.io/cemu_graphic_packs</a>) et placez-les dans \graphicPacks\</li>
 <li>Lancez Cemu.exe.</li>
-<li>Dans Options > Graphic packs, cochez les graphic packs de votre choix. Sont recommandés : 2560x1440 ou 3840x2160 selon la puissance de votre carte graphique, High Resolution Shadows, FPS++ et LWZX Crash Workaround (<a href="https://i.imgur.com/oV1p3VF.png">image</a>). 30FPS Lock peut également être activé selon les préférences.</li>
+<li>Dans Options > Graphic packs, cochez les graphic packs de votre choix. Sont recommandés : 2560x1440 ou 3840x2160, High Resolution Shadows, FPS++ et LWZX Crash Workaround (<a href="https://i.imgur.com/oV1p3VF.png">image</a>). 30FPS Lock peut également être activé selon les préférences.</li>
 <blockquote><i><b>2560x1440</b> et <b>3840x2160</b> multiplient respectivement par 4 et par 9 la résolution par défaut du jeu, rendant l'image nettement plus fine.
 <br><br>
 <b>High Resolution Shadows</b> multiplie par 256 la résolution des ombres.
 <br><br>
 <b>FPS++</b> améliore les performances, permet au taux d'images par seconde de varier sans impacter la vitesse du jeu et fixe le taux d'images par seconde maximal à 60 au lieu de 30.
 <br><br>
-<b>LWZX Crash Workaround</b> rend le jeu parfaitement stable.
+<b>LWZX Crash Workaround</b> améliore la stabilité.
 <br><br>
 <b>30FPS Lock</b> limite le taux d'images par seconde maximal à 30 comme sur Wii U tout en conservant les autres avantages offerts par <b>FPS++</b>.</i></blockquote>
 <li>Dans Options > Input settings, sélectionnez Wii U Pro Controller à la ligne Emulate Controller et configurez les raccourcis comme vous le souhaitez (<a href="https://i.imgur.com/LbWoEvZ.png">image</a>).</li>
 <li>Dans Options > Experimental, sélectionnez Full sync at GX2DrawDone().</li>
-<li>Dans Options > Console language, sélectionnez French.</li></ul>
+<li>Dans Options > Console language, sélectionnez French.</li>
+<li>Dans CPU > Mode, sélectionnez Dual-core recompiler si votre processeur possède deux cœurs et Triple-core recompiler s'il en possède au moins trois.</li>
+<li>Dans Debug > Custom Timer, sélectionnez QPC.</li></ul>
 
 <br><br>
 
 <big><b>Lancer The Legend of Zelda: Breath of the Wild</b></big>
 <br><br>
-<i><b>Note</b> : Le lancement initial est long car les 9400+ shaders du jeu doivent être compilés mais les lancements suivants sont, eux, quasi instantanés. Toute mise à jour de Cemu ou des pilotes de votre carte graphique entraîne une recompilation complète des shaders.</i> 
+<i><b>Note</b> : Le lancement initial est long car les 9450 shaders du jeu doivent être compilés mais les lancements suivants sont, eux, quasi instantanés. Toute mise à jour de Cemu ou des pilotes de votre carte graphique entraîne une recompilation complète des shaders.</i> 
 <ul><li>Dans Cemu, cliquez sur File > Load et sélectionnez \The Legend of Zelda Breath of the Wild [ALZP0101]\code\U-King.rpx.</li>
 <li>Sélectionnez Options > Fullscreen pour basculer en plein écran.</li></ul>
 
@@ -137,7 +139,7 @@ Vous pourrez ainsi lancer le jeu directement en plein écran et entièrement à 
 <ul><li>Supprimez votre fichier settings.bin.</li>
 <li>Supprimez le contenu de \shaderCache\precompiled\</li>
 <li>Remplacez l'ancien Cemu.exe par le nouveau.</li>
-<li>Reconfigurez Cemu comme précédemment (Graphic packs, Input settings, Experimental et Console language).</li></ul>
+<li>Reconfigurez Cemu comme précédemment (Graphic packs, Input settings, Experimental, Console language, CPU et Debug).</li></ul>
 
 <br><br>
   
